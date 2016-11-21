@@ -1,0 +1,13 @@
+New log file opened at Mon Nov 21 10:21:33 CET 2016 by 1984@DESKTOP-8NFIDV1
+Taking next connection to: 63185
+New client attempting to connect on port: 63186-63185
+  Address = /172.16.21.209:63185
+This client on port 63186 has uuid 039cac14-2790-482b-b9f9-c390e996c7a3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-039cac14-2790-482b-b9f9-c390e996c7a3
+Taking next connection to: 63185
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 1984@DESKTOP-8NFIDV1 logs at Mon Nov 21 10:24:34 CET 2016, goodbye.
