@@ -1,0 +1,8 @@
+New log file opened at Mon Nov 28 19:39:22 CET 2016 by 7632@HP
+Sending msg to client play-fork-run-55c7f638-3977-4bab-a422-0fba15f94c98: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\Users\Korisnik\Desktop\F\4.godina\E-Business Concept and Technologies\Crowdsourcing_platform_for_Bike_sharing\.sbtserver\connections\master.log))
+Sending msg to client play-fork-run-55c7f638-3977-4bab-a422-0fba15f94c98: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\Users\Korisnik\Desktop\F\4.godina\E-Business Concept and Technologies\Crowdsourcing_platform_for_Bike_sharing\.sbtserver\master.log))
+Sending msg to client play-fork-run-55c7f638-3977-4bab-a422-0fba15f94c98: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\Users\Korisnik\Desktop\F\4.godina\E-Business Concept and Technologies\Crowdsourcing_platform_for_Bike_sharing\.sbtserver\connections\play-fork-run-55c7f638-3977-4bab-a422-0fba15f94c98.log))
+Reading next message from client.
+Got request: ListenToEvents()
+Reading next message from client.
+Sending msg to client play-fork-run-55c7f638-3977-4bab-a422-0fba15f94c98: (3,ReceivedResponse())
