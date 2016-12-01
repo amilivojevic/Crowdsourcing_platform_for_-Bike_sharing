@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+New log file opened at Mon Nov 28 11:44:15 CET 2016 by 9832@DESKTOP-8NFIDV1
+Taking next connection to: 59426
+New client attempting to connect on port: 59427-59426
+  Address = /172.16.12.140:59426
+This client on port 59427 has uuid 2ed74d95-c98d-45d8-994b-525e06ebbe2a configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-2ed74d95-c98d-45d8-994b-525e06ebbe2a
+Taking next connection to: 59426
+=======
 New log file opened at Mon Nov 28 19:32:51 CET 2016 by 7632@HP
 Taking next connection to: 57837
 New client attempting to connect on port: 57838-57837
@@ -65,3 +74,4 @@ Server socket thread exiting.
 0 clients open, will close them...
 All client sockets have been closed.
 Closing the 7632@HP logs at Mon Nov 28 20:06:22 CET 2016, goodbye.
+>>>>>>> 2b39ec8884eb6cd3d218ea9b062157fd3f097ddd
