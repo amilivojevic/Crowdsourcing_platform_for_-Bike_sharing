@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 New log file opened at Mon Nov 28 11:44:15 CET 2016 by 9832@DESKTOP-8NFIDV1
 Taking next connection to: 59426
 New client attempting to connect on port: 59427-59426
@@ -5,3 +6,72 @@ New client attempting to connect on port: 59427-59426
 This client on port 59427 has uuid 2ed74d95-c98d-45d8-994b-525e06ebbe2a configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: play-fork-run-2ed74d95-c98d-45d8-994b-525e06ebbe2a
 Taking next connection to: 59426
+=======
+New log file opened at Mon Nov 28 19:32:51 CET 2016 by 7632@HP
+Taking next connection to: 57837
+New client attempting to connect on port: 57838-57837
+  Address = /192.168.0.107:57837
+This client on port 57838 has uuid f502a9bb-ad04-4eab-991a-7fa0652f942d configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-f502a9bb-ad04-4eab-991a-7fa0652f942d
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+New client attempting to connect on port: 57901-57837
+  Address = /127.0.0.1:57837
+Handshake exception on socket: 57901
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 57837
+New client attempting to connect on port: 57902-57837
+  Address = /127.0.0.1:57837
+This client on port 57902 has uuid 55c7f638-3977-4bab-a422-0fba15f94c98 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-55c7f638-3977-4bab-a422-0fba15f94c98
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57837
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 7632@HP logs at Mon Nov 28 20:06:22 CET 2016, goodbye.
+>>>>>>> 2b39ec8884eb6cd3d218ea9b062157fd3f097ddd
