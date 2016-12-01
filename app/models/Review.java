@@ -9,4 +9,6 @@ import com.avaje.ebean.Model;
  */
 @Entity
 public class Review extends Model{
+    @Id
+    long review_id;
 }

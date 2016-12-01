@@ -1,7 +1,12 @@
 package models;
 
+import com.avaje.ebean.Model;
+
+import javax.persistence.Entity;
+
 /**
  * Created by Korisnik on 11/28/2016.
  */
-public class BikeType {
+@Entity
+public class BikeType extends Model {
 }
